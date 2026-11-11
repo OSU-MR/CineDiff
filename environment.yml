@@ -1,0 +1,23 @@
+name: cinediff-reconstruction
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pytorch=2.3.1
+  - torchvision=0.18.1
+  - pytorch-cuda=12.1
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - scikit-image=0.25.2
+  - matplotlib=3.9.1
+  - pillow=10.4.0
+  - pip
+  - pip:
+      - einops==0.8.0
+      - einops-exts==0.0.4
+      - rotary-embedding-torch==0.6.4
+      - tqdm==4.66.4
+      - lpips==0.1.4
+      - DISTS-pytorch==0.1

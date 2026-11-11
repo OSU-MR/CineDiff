@@ -1,0 +1,44 @@
+[
+  {
+    "case_key": "fs_0008_1_5T_sli0_R16_8frames",
+    "cohort": "fullysampled",
+    "dataset": "fs_0008_1_5T",
+    "slice": 0,
+    "acceleration": 16,
+    "prepared": "example_data/fs_0008_1_5T_sli0_R16_8frames/prepared",
+    "shape": [
+      112,
+      180,
+      8
+    ],
+    "nfe": 50,
+    "seed": 42,
+    "eta": 0.85,
+    "gamma_w": 9.0,
+    "gamma_s": 0.0001,
+    "num_sense_maps": 1,
+    "temporal_boundary_mode": "balanced_full",
+    "reference_available": true
+  },
+  {
+    "case_key": "fs_0008_1_5T_sli0_R16_15frames",
+    "cohort": "fullysampled",
+    "dataset": "fs_0008_1_5T",
+    "slice": 0,
+    "acceleration": 16,
+    "prepared": "example_data/fs_0008_1_5T_sli0_R16_15frames/prepared",
+    "shape": [
+      112,
+      180,
+      15
+    ],
+    "nfe": 50,
+    "seed": 42,
+    "eta": 0.85,
+    "gamma_w": 9.0,
+    "gamma_s": 0.0001,
+    "num_sense_maps": 1,
+    "temporal_boundary_mode": "balanced_full",
+    "reference_available": true
+  }
+]
