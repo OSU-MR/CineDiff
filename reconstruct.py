@@ -952,6 +952,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         help="Number of independent reconstructions to average (default: 1)",
     )
     parser.add_argument(
+        "--nfe",
+        type=int,
+        help=(
+            "Number of sampling steps, from 2 to 1000 (default: the case's stored "
+            "value, 50 for FS and 200 for US cases)"
+        ),
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Print the case settings and exit without reconstructing",
@@ -959,6 +967,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = parser.parse_args(argv)
     if args.avg < 1:
         parser.error("--avg must be positive")
+    if args.nfe is not None and not 2 <= args.nfe <= MODEL_TIMESTEPS:
+        parser.error(f"--nfe must be between 2 and {MODEL_TIMESTEPS}")
     devices = None
     if args.devices is not None:
         try:
@@ -990,7 +1000,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         slice_number=case["slice"],
         gamma_w=case["gamma_w"],
         gamma_s=case["gamma_s"],
-        nfe=case["nfe"],
+        nfe=case["nfe"] if args.nfe is None else args.nfe,
         first_seed=case["seed"],
         num_samples=args.avg,
         eta=case["eta"],

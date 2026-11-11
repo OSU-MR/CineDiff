@@ -96,7 +96,22 @@ Case keys are listed in `data/cases.json`. Each case runs with its stored
 settings, with 50 sampling steps for FS
 cases and 200 for US cases. Sampling starts from the compressed-sensing
 reconstruction, noised to the first step of the shortened schedule.
-`--avg 8` averages eight independent reconstructions with seeds 42 to 49.
+To use a different number of sampling steps, pass `--nfe` (<= 1000). For
+example:
+
+```bash
+python reconstruct.py --case fs_0008_1_5T_sli0_R16_8frames \
+  --output-root outputs/nfe100 --nfe 100
+```
+
+The results in the paper are posterior means over 8 samples. Add `--avg 8` to
+run eight independent reconstructions one after another and average them.
+Runs take about eight times as long. For example, with the 8-frame example:
+
+```bash
+python reconstruct.py --case fs_0008_1_5T_sli0_R16_8frames \
+  --output-root outputs/avg8 --avg 8
+```
 
 By default every visible GPU is used: the denoiser's patch batch is split
 across them. Pass `--devices` to choose GPUs, for example `--devices 0` for a
