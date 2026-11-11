@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OSU-MR/CineDiff/blob/main/CineDiff_demo.ipynb)
 Patch-Based Diffusion Reconstruction for Accelerated Cardiac Cine MRI \[[arXiv](https://arxiv.org/abs/2608.28927)\]
 ===
 
