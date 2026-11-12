@@ -1,0 +1,306 @@
+{
+  "fs_0067_1_5T_sli0": {
+    "cropping_x2": 48,
+    "cropping_x1": 12,
+    "cropping_y2": 20,
+    "cropping_y1": 71,
+    "dataset_id": "fs_0067_1_5T_sli0",
+    "slice": 0
+  },
+  "fs_0057_1_5T_sli1": {
+    "cropping_x2": 54,
+    "cropping_x1": 11,
+    "cropping_y2": 60,
+    "cropping_y1": 55,
+    "dataset_id": "fs_0057_1_5T_sli1",
+    "slice": 1
+  },
+  "fs_0057_1_5T_sli3": {
+    "cropping_x2": 58,
+    "cropping_x1": 12,
+    "cropping_y2": 63,
+    "cropping_y1": 58,
+    "dataset_id": "fs_0057_1_5T_sli3",
+    "slice": 3
+  },
+  "fs_0074_1_5T_sli1": {
+    "cropping_x2": 65,
+    "cropping_x1": 15,
+    "cropping_y2": 69,
+    "cropping_y1": 53,
+    "dataset_id": "fs_0074_1_5T_sli1",
+    "slice": 1
+  },
+  "fs_0074_1_5T_sli3": {
+    "cropping_x2": 68,
+    "cropping_x1": 18,
+    "cropping_y2": 71,
+    "cropping_y1": 55,
+    "dataset_id": "fs_0074_1_5T_sli3",
+    "slice": 3
+  },
+  "fs_0074_1_5T_sli5": {
+    "cropping_x2": 71,
+    "cropping_x1": 22,
+    "cropping_y2": 79,
+    "cropping_y1": 56,
+    "dataset_id": "fs_0074_1_5T_sli5",
+    "slice": 5
+  },
+  "fs_0076_1_5T_sli0": {
+    "cropping_x2": 63,
+    "cropping_x1": 40,
+    "cropping_y2": 51,
+    "cropping_y1": 32,
+    "dataset_id": "fs_0076_1_5T_sli0",
+    "slice": 0
+  },
+  "fs_0091_1_5T_sli0": {
+    "cropping_x2": 67,
+    "cropping_x1": 67,
+    "cropping_y2": 62,
+    "cropping_y1": 73,
+    "dataset_id": "fs_0091_1_5T_sli0",
+    "slice": 0
+  },
+  "fs_0098_3T_sli0": {
+    "cropping_x2": 32,
+    "cropping_x1": 18,
+    "cropping_y2": 47,
+    "cropping_y1": 44,
+    "dataset_id": "fs_0098_3T_sli0",
+    "slice": 0
+  },
+  "fs_0102_3T_sli0": {
+    "cropping_x2": 43,
+    "cropping_x1": 19,
+    "cropping_y2": 23,
+    "cropping_y1": 61,
+    "dataset_id": "fs_0102_3T_sli0",
+    "slice": 0
+  },
+  "P003_cine_sax_sli1": {
+    "cropping_x2": 76,
+    "cropping_x1": 62,
+    "cropping_y2": 43,
+    "cropping_y1": 44,
+    "dataset_id": "P003_cine_sax_sli1",
+    "slice": 1
+  },
+  "P003_cine_sax_sli3": {
+    "cropping_x2": 87,
+    "cropping_x1": 63,
+    "cropping_y2": 46,
+    "cropping_y1": 44,
+    "dataset_id": "P003_cine_sax_sli3",
+    "slice": 3
+  },
+  "P004_cine_sax_sli2": {
+    "cropping_x2": 88,
+    "cropping_x1": 82,
+    "cropping_y2": 47,
+    "cropping_y1": 42,
+    "dataset_id": "P004_cine_sax_sli2",
+    "slice": 2
+  },
+  "P007_cine_lax_sli1": {
+    "cropping_x2": 66,
+    "cropping_x1": 30,
+    "cropping_y2": 35,
+    "cropping_y1": 52,
+    "dataset_id": "P007_cine_lax_sli1",
+    "slice": 1
+  },
+  "P008_cine_lax_sli1": {
+    "cropping_x2": 24,
+    "cropping_x1": 79,
+    "cropping_y2": 69,
+    "cropping_y1": 34,
+    "dataset_id": "P008_cine_lax_sli1",
+    "slice": 1
+  },
+  "P010_cine_lax_sli1": {
+    "cropping_x2": 43,
+    "cropping_x1": 84,
+    "cropping_y2": 63,
+    "cropping_y1": 26,
+    "dataset_id": "P010_cine_lax_sli1",
+    "slice": 1
+  },
+  "P010_cine_sax_sli2": {
+    "cropping_x2": 51,
+    "cropping_x1": 59,
+    "cropping_y2": 62,
+    "cropping_y1": 45,
+    "dataset_id": "P010_cine_sax_sli2",
+    "slice": 2
+  },
+  "P010_cine_sax_sli4": {
+    "cropping_x2": 55,
+    "cropping_x1": 65,
+    "cropping_y2": 63,
+    "cropping_y1": 48,
+    "dataset_id": "P010_cine_sax_sli4",
+    "slice": 4
+  },
+  "P014_cine_lax_sli1": {
+    "cropping_x2": 40,
+    "cropping_x1": 57,
+    "cropping_y2": 48,
+    "cropping_y1": 26,
+    "dataset_id": "P014_cine_lax_sli1",
+    "slice": 1
+  },
+  "P014_cine_sax_sli2": {
+    "cropping_x2": 94,
+    "cropping_x1": 90,
+    "cropping_y2": 46,
+    "cropping_y1": 49,
+    "dataset_id": "P014_cine_sax_sli2",
+    "slice": 2
+  },
+  "P014_cine_sax_sli4": {
+    "cropping_x2": 99,
+    "cropping_x1": 94,
+    "cropping_y2": 56,
+    "cropping_y1": 49,
+    "dataset_id": "P014_cine_sax_sli4",
+    "slice": 4
+  },
+  "P014_cine_sax_sli6": {
+    "cropping_x2": 105,
+    "cropping_x1": 104,
+    "cropping_y2": 69,
+    "cropping_y1": 64,
+    "dataset_id": "P014_cine_sax_sli6",
+    "slice": 6
+  },
+  "P015_cine_lax_sli1": {
+    "cropping_x2": 31,
+    "cropping_x1": 78,
+    "cropping_y2": 69,
+    "cropping_y1": 27,
+    "dataset_id": "P015_cine_lax_sli1",
+    "slice": 1
+  },
+  "P016_cine_sax_sli2": {
+    "cropping_x2": 49,
+    "cropping_x1": 43,
+    "cropping_y2": 45,
+    "cropping_y1": 43,
+    "dataset_id": "P016_cine_sax_sli2",
+    "slice": 2
+  },
+  "P016_cine_sax_sli4": {
+    "cropping_x2": 55,
+    "cropping_x1": 53,
+    "cropping_y2": 60,
+    "cropping_y1": 46,
+    "dataset_id": "P016_cine_sax_sli4",
+    "slice": 4
+  },
+  "P016_cine_sax_sli6": {
+    "cropping_x2": 59,
+    "cropping_x1": 59,
+    "cropping_y2": 71,
+    "cropping_y1": 54,
+    "dataset_id": "P016_cine_sax_sli6",
+    "slice": 6
+  },
+  "P017_cine_lax_sli1": {
+    "cropping_x2": 28,
+    "cropping_x1": 77,
+    "cropping_y2": 62,
+    "cropping_y1": 29,
+    "dataset_id": "P017_cine_lax_sli1",
+    "slice": 1
+  },
+  "P017_cine_sax_sli1": {
+    "cropping_x2": 63,
+    "cropping_x1": 76,
+    "cropping_y2": 39,
+    "cropping_y1": 62,
+    "dataset_id": "P017_cine_sax_sli1",
+    "slice": 1
+  },
+  "P017_cine_sax_sli3": {
+    "cropping_x2": 66,
+    "cropping_x1": 75,
+    "cropping_y2": 51,
+    "cropping_y1": 63,
+    "dataset_id": "P017_cine_sax_sli3",
+    "slice": 3
+  },
+  "P017_cine_sax_sli5": {
+    "cropping_x2": 75,
+    "cropping_x1": 79,
+    "cropping_y2": 53,
+    "cropping_y1": 65,
+    "dataset_id": "P017_cine_sax_sli5",
+    "slice": 5
+  },
+  "fs_0008_1_5T_sli0": {
+    "cropping_x2": 48,
+    "cropping_x1": 30,
+    "cropping_y2": 61,
+    "cropping_y1": 14,
+    "dataset_id": "fs_0008_1_5T_sli0",
+    "slice": 0
+  },
+  "fs_0025_3T_sli0": {
+    "cropping_x2": 75,
+    "cropping_x1": 7,
+    "cropping_y2": 30,
+    "cropping_y1": 78,
+    "dataset_id": "fs_0025_3T_sli0",
+    "slice": 0
+  },
+  "fs_0046_3T_sli0": {
+    "cropping_x2": 38,
+    "cropping_x1": 11,
+    "cropping_y2": 41,
+    "cropping_y1": 39,
+    "dataset_id": "fs_0046_3T_sli0",
+    "slice": 0
+  },
+  "fs_0057_1_5T_sli5": {
+    "cropping_x2": 60,
+    "cropping_x1": 20,
+    "cropping_y2": 58,
+    "cropping_y1": 54,
+    "dataset_id": "fs_0057_1_5T_sli5",
+    "slice": 5
+  },
+  "P001_cine_lax_sli1": {
+    "cropping_x2": 58,
+    "cropping_x1": 48,
+    "cropping_y2": 30,
+    "cropping_y1": 55,
+    "dataset_id": "P001_cine_lax_sli1",
+    "slice": 1
+  },
+  "P003_cine_sax_sli5": {
+    "cropping_x2": 90,
+    "cropping_x1": 80,
+    "cropping_y2": 37,
+    "cropping_y1": 36,
+    "dataset_id": "P003_cine_sax_sli5",
+    "slice": 5
+  },
+  "P004_cine_sax_sli4": {
+    "cropping_x2": 91,
+    "cropping_x1": 92,
+    "cropping_y2": 47,
+    "cropping_y1": 31,
+    "dataset_id": "P004_cine_sax_sli4",
+    "slice": 4
+  },
+  "P005_cine_lax_sli1": {
+    "cropping_x2": 30,
+    "cropping_x1": 79,
+    "cropping_y2": 51,
+    "cropping_y1": 42,
+    "dataset_id": "P005_cine_lax_sli1",
+    "slice": 1
+  }
+}
