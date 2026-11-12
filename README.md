@@ -165,5 +165,5 @@ If you find this code helpful, please cite our paper:
 
 Our network architecture is based on
 [video-diffusion-pytorch](https://github.com/lucidrains/video-diffusion-pytorch).
-We thank the [OCMR](https://arxiv.org/abs/2008.03410) team for making their data
+We thank the [OCMR](https://arxiv.org/abs/2008.03410) and [CMRxRecon](https://github.com/CmrxRecon/CMRxRecon) teams for making their data
 openly available.
